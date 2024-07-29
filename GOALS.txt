@@ -1,0 +1,15 @@
+GOALS:
+
+1.Use MVP design pattern (route,view,controll,middleware)   (done)
+2.host static website   (done)
+** Make custom middleware function  (done)
+** implement https
+** create registration, login and logout system     (done)
+3.Allow curd operation
+** implement jwt security(done)
+4.Database(dynamo)
+5.Auth (AWS)
+6.hosting (AWS lambda)
+
+
+//TODO: In jwt auth we gonna make simple auth with just access token store it db and if token expire ask for new one(we verify it with token stored in the db and then generate new one and replace it)  UNLIKE access token and refress token setup.
